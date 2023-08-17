@@ -10,8 +10,12 @@ import Hidden from './Component/Hidden/Hidden';
 import Contact from './Component/Contact/Contact';
 import Home from './Component/HomeFile';
 import Travel from './Component/Travel Places/Travel';
+import Privacy from './Component/Privacy Policy/PrivacyPolicy';
+import Information from './Component/Information/Information';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Terms from './Component/Terms/Terms';
+import Faq from './Component/Faq/Faq';
 
 class App extends Component {
   constructor() {
@@ -39,8 +43,24 @@ class App extends Component {
               <Contact></Contact>
             }>              
             </Route>
-            <Route path='/travel' element={
+            <Route path='/destination' element={
               <Travel></Travel>
+            }>              
+            </Route>
+            <Route path='/privacy-policy' element={
+              <Privacy></Privacy>
+            }>              
+            </Route>
+            <Route path='/USA-travel-information' element={
+              <Information></Information>
+            }>              
+            </Route>
+            <Route path='/terms-of-use' element={
+              <Terms></Terms>
+            }>              
+            </Route>
+            <Route path='/faq' element={
+              <Faq></Faq>
             }>              
             </Route>
           </Routes>

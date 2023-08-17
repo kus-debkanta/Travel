@@ -208,7 +208,7 @@
 } */
 @media(max-width: 1000px){
     .footer_container{
-        top: 185rem;
+        top: 0px;
         height: 500px;
     }
     .list_item{
@@ -251,7 +251,7 @@
 }
 @media(max-width: 900px){
     .footer_container{
-        top: 180rem;
+        top: 0rem;
     }
     .list_item{
         top: 1rem;
@@ -294,7 +294,7 @@
 }
 @media(max-width: 800px){
     .footer_container{
-        top: 160rem;
+        top: 00rem;
         height: 410px;
     }
     .list_item{
@@ -337,7 +337,7 @@
 }
 @media(max-width: 600px){
     .footer_container{
-        top: 80rem;
+        top: 0rem;
         height: 360px;
     }
     .list_item{
@@ -380,7 +380,7 @@
 }
 @media(max-width: 500px){
     .footer_container{
-        top: 106rem;
+        top: 0rem;
     }
     .list_item{
         top: 1rem;
@@ -422,7 +422,7 @@
 }
 @media(max-width: 400px){
     .footer_container{
-        top: 52rem;
+        top: 0rem;
     }
     .list_item{
         top: 1rem;
@@ -464,7 +464,7 @@
 }
 @media(max-width: 380px){
     .footer_container{
-        top: 45rem;
+        top: 0rem;
         height: 350px;
     }
     .list_item{
@@ -508,7 +508,7 @@
 }
 @media(max-width: 370px){
     .footer_container{
-        top: 38rem;
+        top: 0rem;
     }
     .list_item{
         top: 1rem;
@@ -550,7 +550,7 @@
 }
 @media(max-width: 300px){
     .footer_container{
-        top: 36rem;
+        top: 0rem;
         height: 320px;
     }
     .list_item{

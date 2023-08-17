@@ -317,6 +317,7 @@
 .bar_content li {
     font-size: 20px;
     margin-top: 25px;
+    cursor: pointer;
 }
 
 .bar_content ul li i {

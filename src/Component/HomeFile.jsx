@@ -5,7 +5,7 @@ import Bottom from './Bottom/Bottom';
 import Middle from './Middle/Middle';
 export default function HomeFile() {
     return (
-        <div>
+        <div className='homeFile'>
             <Slider></Slider>
             <Map></Map>
             <Middle></Middle>

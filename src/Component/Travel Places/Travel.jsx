@@ -85,7 +85,7 @@ export default function Travel() {
                 <span> 2 hours by car</span>
                 <div className='dashed dash2'></div>
             </div>
-            <div id="carouselExampleControls" class="carousel slide slider" data-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide Slider" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/06/29/04/30/fishing-boat-at-sea-8095632_1280.jpg" alt="First slide" />
@@ -249,7 +249,7 @@ export default function Travel() {
                 <span> 1 hours by car</span>
                 <div className='dashed dash2'></div>
             </div>
-            <div id="carouselExampleControls" class="carousel slide slider" data-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide Slider" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/02/08/17/55/mountains-7777164_1280.jpg" alt="First slide" />

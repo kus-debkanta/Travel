@@ -140,7 +140,7 @@
 .dash2{
     height: 150px;
 }
-.slider{
+.Slider{
     height: 600px;
     position: relative;
     top: 200px;
@@ -327,6 +327,9 @@
     }
 }
 @media(max-width: 1000px){
+    .Travel{
+        height: 16600px;
+    }
     .upperImage h1{
         left: 200px;
     }
@@ -489,6 +492,9 @@
     }
 }
 @media(max-width: 600px){
+    .Travel{
+        height: 14500px;
+    }
     .upperImage{
         height: 400px;
     }
@@ -508,7 +514,7 @@
     .buttons{
         width: 100%;
     }
-    .slider{
+    .Slider{
         height: fit-content;
     }
     .paragraph{
@@ -599,6 +605,9 @@
     }
 }
 @media(max-width: 500px){
+    .Travel{
+        height: 16200px;
+    }
     .upperImage{
         height: 400px;
     }
@@ -610,7 +619,7 @@
         height: 400px;
         margin-top: 200px;
     }
-    .slider{
+    .Slider{
         margin-top: 200px;
     }
     .map{
@@ -785,12 +794,18 @@
         left: 90px;
     }
 }
+@media(max-width: 370px){
+
+}
 @media(max-width: 370px) {
     .upperImage h1{
         font-size: 20px;
     }
 }
 @media(max-width: 300px) {
+    .Travel{
+        height: 14900px;
+    }
     .upperImage{
         height: 300px;
     }
@@ -879,7 +894,7 @@
         top: 120px;
         padding: 10px 30px;
     }
-    .slider{
+    .Slider{
         position: relative;
         top: 660px;
         margin-top: 0px;

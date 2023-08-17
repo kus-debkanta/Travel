@@ -12,6 +12,7 @@ import America4 from './America4.jpg';
 import America5 from './America5.jpg';
 import America6 from './America6.jpg';
 import America7 from './America7.jpg';
+import { Link } from 'react-router-dom';
 
 function Navbar(props) {
     const [isActive, setIsActive] = useState(false);
@@ -237,13 +238,13 @@ function Navbar(props) {
                         <ul>
                             <li><img src={India}></img>English (India)<i className="fa-solid fa-caret-down"></i></li>
                             <div></div>
-                            <li>Brand USA</li>
-                            <li>Media Inquiries</li>
-                            <li>Contact US</li>
-                            <li>Terms of Use</li>
-                            <li>USA Travel Information</li>
-                            <li>FAQs</li>
-                            <li>Privacy Policy</li>
+                            <li  onClick={showinhHandler}>Brand USA</li>
+                            <li onClick={showinhHandler}>Media Inquiries</li>
+                            <li onClick={showinhHandler}><Link to='/contact' style={{color: 'black', textDecoration: 'none', width: '100%', display: 'block'}}>Contact US</Link></li>
+                            <li onClick={showinhHandler}><Link to='/terms-of-use' style={{color: 'black', textDecoration: 'none', width: '100%', display: 'block'}}>Terms of Use</Link></li>
+                            <li onClick={showinhHandler}><Link to='/USA-travel-information' style={{color: 'black', textDecoration: 'none',width: '100%', display: 'block'}}>USA Travel Information</Link></li>
+                            <li onClick={showinhHandler}>FAQs</li>
+                            <li onClick={showinhHandler}><Link to='/privacy-policy' style={{color: 'black', textDecoration: 'none', width: '100%', display: 'block'}}>Privacy Policy</Link></li>
                         </ul>
                     </div>
                 </div>

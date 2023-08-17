@@ -1,18 +1,18 @@
-.Contact-Us{
+.privacy-policy{
     width: 100%;
     height: fit-content;
-    background-image: url("https://ik.imagekit.io/ikmedia/backlit.jpg");
+    background-image: url("https://images.unsplash.com/photo-1510070009289-b5bc34383727?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
-.Contact-Us h2{
+.privacy-policy h2{
     text-align: center;
     color: white;
     font-size: 50px;
     position: relative;
     top: 100px;
 }
-.contact-Form{
+.privacyandpolicy{
     width: 100%;
     display: flex;
     height: fit-content;
@@ -70,77 +70,21 @@
 .form-right h1{
     margin: 10px 0px 30px 0px;
 }
-#firstP{
-    margin-bottom: 60px;
+.form-right p{
+    font-weight: 600;
 }
-.form-right form{
-    width: 100%;
-}
-.form-checkbox{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding-right: 100px;
-}
-.form-checkbox input{
-    border: 2px solid orange;
-    height: 16px;
-    width: 16px;
-}
-.form-checkbox label{
-    margin-right: 20px;
-}
-.checking{
-    width: fit-content;
-    height: fit-content;
-    background-color: #f8f8f8;
-    padding: 10px;
-    border: 1px solid rgb(221, 221, 221);
-}
-.checking label{
-    position: relative;
-    top: 12px;
-}
-#check{
-    width: 20px;
-    height: 20px;
-    position: relative;
-    top: 5px;
-}
-.checking label span{
-    margin-left: 10px;
-}
-.checking img{
-    height: 20px;
-    width: 20px;
-    margin-left: 80px;
-    margin-right: 15px;
-}
-.recaptcha{
-    font-size: 10px;
-    float: right;
-}
-.checking p{
-    font-size: 12px;
-    float: right;
-    position: relative;
-    top: -10px;
-}
-.form-right button{
-    font-size: 15px;
-    padding: 10px 50px;
-    margin-top: 10px;
-    border: none;
-    background-color: orange;
+.form-right span{
+    color: orangered;
 }
 @media(max-width: 1000px){
-    .Contact-Us{
-        height: 2350px;
+    .privacy-policy{
+        height: 15200px;
+        overflow: hidden;
     }
-    .contact-Form{
+    .privacyandpolicy{
         display:grid;
         justify-content: center;
-        height: 2000px;
+        height: 14850px;
     }
     .form-left{
         width: 100%;
@@ -233,13 +177,27 @@
         margin-top: 20px;
     }
 }
-@media(max-width: 600px){
-    .Contact-Us{
-        height: 2350px;
+@media(max-width: 900px){
+    .privacy-policy{
+        height: 16600px;
     }
-    .contact-Form{
+}
+@media(max-width: 800px){
+    .privacy-policy{
+        height: 17600px;
+    }
+    .privacyandpolicy{
+        height: 17230px;
+    }
+}
+@media(max-width: 600px){
+    .privacy-policy{
+        height: 18200px;
+    }
+    .privacyandpolicy{
         display:grid;
         justify-content: center;
+        height: 16600px;
     }
     .form-left{
         width: 100%;
@@ -335,11 +293,11 @@
     }
 }
 @media(max-width: 500px){
-    .Contact-Us{
-        height: 2380px;
+    .privacy-policy{
+        height: 18050px;
     }
-    .contact-Form{
-        height: 2020px;
+    .privacyandpolicy{
+        height: 22300px;
     }
     .form-left div{
         width: 320px;
@@ -417,11 +375,11 @@
     }
 }
 @media(max-width: 400px){
-    .Contact-Us{
-        height: 2400px;
+    .privacy-policy{
+        height: 11800px;
     }
-    .contact-Form{
-        height: 2032px;
+    .privacyandpolicy{
+        height: 11600px;
     }
     .form-left{
         padding-right: 0px;
@@ -483,8 +441,9 @@
     }
 }
 @media(max-width: 380px){
-    .Contact-Us{
-        height: 2600px;
+    .privacy-policy{
+        height: 12240px;
+        background-size: cover;
     }
     .form-left div{
         width: 300px;
@@ -553,8 +512,11 @@
     }
 }
 @media(max-width: 370px){
-    .Contact-Us{
-        height: 2360px;
+    .privacy-policy{
+        height: 11600px;
+    }
+    .privacyandpolicy{
+        height: 11235px;
     }
     .form-left div{
         width: 300px;
@@ -624,13 +586,10 @@
     }
 }
 @media(max-width: 300px){
-    .Contact-Us{
-        height: 2500px;
+    .privacy-policy{
+        height: 9980px;
     }
-    .contact-Form{
-        height: 2400px;
-    }
-    .Contact-Us h2{
+    .privacy-policy h2{
         font-size: 30px;
     }
     .form-left div{
@@ -652,62 +611,5 @@
         font-size: 23px;
         width: 90%;
     }
-    #firstP{
-        font-size: 18px!important;
-        width: 90%;
-    }
-    .form-right p{
-        font-size: 20px;
-    }
-    .form-checkbox{
-        padding-right: 0px;
-        display: grid;
-        margin-bottom: 50px;
-    }
-    .form-checkbox input{
-       height: 30px;
-       width: 30px;
-    }
-    .form-checkbox label{
-        font-size: 20px;
-    }
-    .formInput{
-        width: 100%;
-    }
-    .fieldInput{
-        height: 50px;
-    }
-    .fieldInput::placeholder{
-        font-size: 20px;
-    }
-    .checking{
-        height: 100px!important;
-        width: 80%;
-    }
-    #check{
-        width: 18px!important;
-        height: 18px!important;
-    }
-    .checking label span{
-        font-size: 15px!important;
-    }
-    .checking img{
-        height: 17px!important;
-        width: 17px!important;
-        margin: 0px!important;
-        transform: translate(20px,10px);
-    }
-    .recaptcha{
-        font-size: 12px!important;
-        transform: translate(0px,20px)!important;
-    }
-    .checking p{
-        font-size: 15px;
-        transform: translate(0px,10px)!important;
-    }
-    .form-right button{
-        font-size: 25px;
-        padding: 10px 50px;
-        margin-top: 0px;
-    }
+    
 }
