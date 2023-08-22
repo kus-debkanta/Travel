@@ -20,7 +20,7 @@ function Footer() {
             </div>
             <div className='last_list'>
                 <ul>
-                    <li>FAQs</li>
+                    <li><Link to='/faq' style={{color: 'white', textDecoration: "none"}}>FAQs</Link></li>
                     <li><Link to='/privacy-policy' style={{color: 'white', textDecoration: "none"}}>Privacy Policy</Link></li>
                     <li>Travel Trade</li>
                 </ul>

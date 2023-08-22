@@ -16,6 +16,8 @@ import Information from './Component/Information/Information';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Terms from './Component/Terms/Terms';
 import Faq from './Component/Faq/Faq';
+import Experience from './Component/Experience/Experience';
+import Bookmark from './Component/Bookmark/Bookmark';
 
 class App extends Component {
   constructor() {
@@ -61,6 +63,14 @@ class App extends Component {
             </Route>
             <Route path='/faq' element={
               <Faq></Faq>
+            }>              
+            </Route>
+            <Route path='/experience' element={
+              <Experience></Experience>
+            }>              
+            </Route>
+            <Route path='/bookmark' element={
+              <Bookmark></Bookmark>
             }>              
             </Route>
           </Routes>

@@ -1,3 +1,6 @@
+.homeFile{
+    height: fit-content;
+}
 @media(max-width: 1000px){
     .homeFile{
         height: 1300px;
